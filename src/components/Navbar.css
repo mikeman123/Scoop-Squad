@@ -1,0 +1,88 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: linear-gradient(to right, rgb(93, 181, 93), rgb(90, 182, 90)); /* Gradient background */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    position: relative;
+    top: 0;
+    z-index: 1000;
+}
+
+.mininav {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    position: relative;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo */
+.navbar .logo img {
+    width: 125px;
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+.navbar .logo img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+    text-decoration: underline;
+}
+
+/* Header Right Section */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+  
+.login {
+    font-size: 0.9rem;
+    color: White;
+    transition: transform 0.3s ease;
+    font-weight: 500;
+  }
+
+.login:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+    text-decoration: underline;
+  }
+  
+.cta-button {
+    display: inline-block;
+    background-color:rgb(213, 15, 15); /* Red button */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: darkred; /* Darker red on hover */
+  }

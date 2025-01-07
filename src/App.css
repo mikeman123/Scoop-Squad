@@ -1,0 +1,51 @@
+/* Main Content Layout */
+.content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Reusable Page Styles */
+.page {
+  margin: 20px 0;
+  padding: 50px;
+  background: linear-gradient(to bottom, rgb(93, 181, 93), white);
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.page h1 {
+  color: #333;
+}
+
+.page p {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #555;
+}
+
+.page ul {
+  list-style: square;
+  font-size: 19px;
+  padding-left: 30px;
+  color: #555;
+}
+
+.home-page {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to bottom,rgb(93, 181, 93), #f9f9f9); 
+  border-radius: 10px;
+  color: white;
+}
+
+.home-page h1 {
+  color: #333;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home-page p {
+  font-size: 1.5rem;
+}
+
